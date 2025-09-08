@@ -1,0 +1,6 @@
+@Prueba.Tecnica.Tekus_HostAddress = http://localhost:5077
+
+GET {{Prueba.Tecnica.Tekus_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

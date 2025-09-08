@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prueba.Tecnica.Tekus", "Prueba.Tecnica.Tekus.csproj", "{3E5AE44E-5CCB-4FB3-8018-F55491964B6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prueba.Tecnica.Tekus", "Prueba.Tecnica.Tekus.csproj", "{3E5AE44E-5CCB-4FB3-8018-F55491964B6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Core", "..\Services.Core\Services.Core.csproj", "{F2CBC196-4E5E-446F-AE24-A30329390142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Core", "..\Services.Core\Services.Core.csproj", "{F2CBC196-4E5E-446F-AE24-A30329390142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Database", "..\Services.Database\Services.Database.csproj", "{FC5D8020-7CBE-40E1-8D6E-3B8BBD1678AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Database", "..\Services.Database\Services.Database.csproj", "{FC5D8020-7CBE-40E1-8D6E-3B8BBD1678AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Domain", "..\Services.Domain\Services.Domain.csproj", "{E154BA15-134D-4F84-9382-38938FB461CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Domain", "..\Services.Domain\Services.Domain.csproj", "{E154BA15-134D-4F84-9382-38938FB461CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit.Test", "..\Unit.Test\Unit.Test.csproj", "{39023774-E947-4F7E-A957-C992E001524C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E154BA15-134D-4F84-9382-38938FB461CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E154BA15-134D-4F84-9382-38938FB461CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E154BA15-134D-4F84-9382-38938FB461CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39023774-E947-4F7E-A957-C992E001524C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39023774-E947-4F7E-A957-C992E001524C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39023774-E947-4F7E-A957-C992E001524C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39023774-E947-4F7E-A957-C992E001524C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
